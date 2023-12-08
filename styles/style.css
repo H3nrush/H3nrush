@@ -81,9 +81,9 @@ body {
   display: none;
   height: 50Vh;
   width: 30vw;
-  position: relative;
+  position: fixed;
   border: 2px #ef476f groove;
-  z-index: 4;
+  z-index: 5;
 }
 
 #menu-container ul {
@@ -105,10 +105,11 @@ body {
   transition: all 0.3s ease-in;
   line-height: 40px;
   margin-left: 10px;
+  padding-right: 18vw;
 }
 
 #menu-container ul .div-menu-text a:hover {
-  color: #ef476f;
+  color: black;
 }
 
 #menu-container ul .div-menu-text:hover {
@@ -288,4 +289,39 @@ body {
   background-color: #ffd166;
   color: black;
   border-radius: 20px;
+}
+
+.lang-logo {
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: row;
+  position: absolute;
+  top: 20px;
+  right: calc(50% - 650px);
+  animation-name: lang-icon;
+  animation-duration: 5s;
+}
+
+.lang-logo img {
+  height: 4vw;
+  width: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  transition: all 0.3s ease-out;
+}
+
+.lang-logo img:hover {
+  transform: scale(1.5);
+  padding-top: 1vw;
+}
+
+@keyframes lang-icon {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 6;
+  }
 }
