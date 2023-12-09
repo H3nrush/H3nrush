@@ -9,8 +9,8 @@ body{
     justify-content: center;
 }
 .about{
-    height: 70vh;
-    width: 70vw;
+    height: 90vh;
+    width: 90vw;
     background-color: rgba(0, 0, 0 , 0.8);
     border-radius: 10px;
     color: white;
@@ -20,7 +20,15 @@ body{
     .policies{
         height: 95%;
         width: 95%;
-        font-size: 2vw;
+        font-size: 5vw;
+        color: aquamarine;
+        overflow-y:scroll;
+        a{
+            color: white;
+            text-decoration: none;
+            background-color: blue;
+            border-radius: 10%;
+        }
 
     }
 
