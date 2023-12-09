@@ -316,6 +316,8 @@
     justify-content: space-between;
     height: 10vh;
     width: 100vw;
+    margin: 0;
+    padding: 0;
   }
   .container nav .logo-img {
     height: 5vw;
@@ -327,21 +329,25 @@
     overflow: hidden;
   }
   .btn-menu {
-    height: 33px;
-    width: 40px;
-    margin-left: 30px;
+    z-index: 6;
     cursor: pointer;
+    height: 5vw;
+    width: 5vw;
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #073b4c;
     border-style: none;
-    background-image: url("../files/icons/menu-img.png");
-    background-size: cover;
-    border-radius: 0;
+  }
+  .btn-menu img {
+    height: 100%;
   }
   #menu-container {
     background-color: #073b4c;
     display: none;
     height: 50Vh;
-    width: 30vw;
+    width: 50vw;
     position: fixed;
     border: 2px #ef476f groove;
     z-index: 5;
@@ -518,31 +524,17 @@
       transform: scale(1);
     }
   }
-  footer .div-photo-btn {
-    height: 20vw;
-    width: 100vw;
-  }
   footer .div-photo-btn ul {
-    height: 100%;
-    width: 100%;
     list-style: none;
-    line-height: 30px;
-    display: flex;
-    flex-direction: column;
+  }
+  footer .div-photo-btn ul li {
+    padding: 1vw;
   }
   footer .div-photo-btn ul li a {
     color: white;
     text-decoration: none;
-    background-color: #ef476f;
-    font-size: 2vw;
-    padding: 4px;
-    border: 1px black groove;
-    border-radius: 10px;
-    transition: all 0.4s ease-out;
   }
   footer .div-photo-btn ul li a:hover {
-    background-color: #ffd166;
     color: black;
-    border-radius: 20px;
   }
 }
