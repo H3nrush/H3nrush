@@ -339,8 +339,8 @@ $color-redlighter :#ef476f;
 @media only screen and (max-width: 930px) {
     body {
         background-color:$color-theme;
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         margin: 0;
         font-family: my-font;
       }
@@ -520,14 +520,14 @@ $color-redlighter :#ef476f;
     }
     .lang-logo{
     
-        width: 1300px;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
         flex: row;
         position: absolute;
         top: 20px;
-        right: calc(50% - 650px);
+        right: calc(50% - 50vw);
         animation-name: lang-icon;
         animation-duration: 5s;
         z-index: 5;
