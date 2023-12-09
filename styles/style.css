@@ -433,37 +433,6 @@
   #name a {
     color: black;
   }
-  .div-photo-btn {
-    height: 20vh;
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 180vw;
-    left: calc(50% - 10vh);
-    z-index: 8;
-  }
-  .div-photo-btn ul {
-    list-style: none;
-    line-height: 10vh;
-    text-align-last: center;
-  }
-  .div-photo-btn ul li a {
-    color: white;
-    text-decoration: none;
-    background-color: #073b4c;
-    font-size: 2vw;
-    padding: 1vw;
-    border-radius: 10px;
-    transition: all 0.4s ease-out;
-  }
-  .div-photo-btn ul li a:hover {
-    background-color: #ffd166;
-    color: black;
-    border-radius: 20px;
-  }
   .lang-logo {
     width: 100vw;
     display: flex;
@@ -547,5 +516,36 @@
     100% {
       transform: scale(1);
     }
+  }
+  footer .div-photo-btn {
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 180vw;
+    left: calc(50% - 10vh);
+    z-index: 8;
+  }
+  footer .div-photo-btn ul {
+    list-style: none;
+    line-height: 10vh;
+    text-align-last: center;
+  }
+  footer .div-photo-btn ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #073b4c;
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+    transition: all 0.4s ease-out;
+  }
+  footer .div-photo-btn ul li a:hover {
+    background-color: #ffd166;
+    color: black;
+    border-radius: 20px;
   }
 }

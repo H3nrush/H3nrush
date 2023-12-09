@@ -484,40 +484,7 @@ $color-redlighter :#ef476f;
         font-style: oblique;
         a{color: black;}
       }
-      .div-photo-btn{
-       height: 20vh;
-       width: 20vw;
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
-       position: absolute;
-       top: 180vw;
-       left: calc(50% - 10vh);
-       z-index: 8;
-       ul{
-        list-style: none;
-        line-height: 10vh;
-        text-align-last: center;
-        li{
-            a{
-                color: white;
-                text-decoration: none;
-                background-color: $color-theme;
-                font-size: 2vw;
-                padding:1vw;
-                border-radius: 10px;
-                transition: all 0.4s ease-out;
-                
-            }
-            a:hover{
-                background-color: $color-redlight;
-                color: black;
-                border-radius: 20px;
-            }
-        }
-       }
-    }
+      
     .lang-logo{
     
         width: 100vw;
@@ -608,4 +575,41 @@ $color-redlighter :#ef476f;
         }
         
     }
+    footer{
+        .div-photo-btn{
+            height: 20vw;
+            width: 20vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 180vw;
+            left: calc(50% - 10vh);
+            z-index: 8;
+            ul{
+             list-style: none;
+             line-height: 10vh;
+             text-align-last: center;
+             li{
+                 a{
+                     color: white;
+                     text-decoration: none;
+                     background-color: $color-theme;
+                     font-size: 2vw;
+                     padding:1vw;
+                     border-radius: 10px;
+                     transition: all 0.4s ease-out;
+                     
+                 }
+                 a:hover{
+                     background-color: $color-redlight;
+                     color: black;
+                     border-radius: 20px;
+                 }
+             }
+            }
+         }
+    }
 }
+
