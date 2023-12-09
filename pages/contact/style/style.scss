@@ -1,0 +1,76 @@
+@font-face {
+    font-family:my-font;
+    src: url('../files/fonts/my-font.ttf');
+    
+    
+}
+
+/////////////////////////////////////////////////////////
+$color-theme : #073b4c; 
+$color-dark : #118ab2;
+$color-heart : #06d6a0;
+$color-redlight : #ffd166;
+$color-redlighter :#ef476f;
+/////////////////////////////////////////////////////////
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:$color-redlight;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:$color-dark;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:$color-theme;
+  }
+/////////////////////////////////////////////////////////
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../../files/img/back.jpg');
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(100px);
+    height: 40vw;
+    width: 50vw;
+    border-radius: 10%;
+}
+.div-social{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    a{
+        padding: 2vw;
+        .social-icon{
+            height: 6vw;
+            transition: all 0.3s ease-out;
+        }
+        .social-icon:hover{
+            transform: scale(1.5);
+        }
+    }
+    
+    
+}
+.contact-email{
+    text-align: center;
+    font-size: 2vw;
+    color: $color-theme;
+}
