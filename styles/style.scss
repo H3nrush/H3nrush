@@ -357,7 +357,7 @@ $color-redlighter :#ef476f;
        .logo-img{
            height: 5vw;
            transition: all 0.3s ease-out;
-           margin-right: 50px;
+           margin-right: 6vw;
            
     
        }
@@ -461,7 +461,7 @@ $color-redlighter :#ef476f;
         }
       }
       #info{
-        height: 70vw;
+        height: 90vw;
         width: 70vw;
         z-index: 4;
         background-color: rgba(0, 0, 0 , 0.1);
@@ -488,6 +488,7 @@ $color-redlighter :#ef476f;
     .lang-logo{
     
         width: 100vw;
+        height: 10vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -499,14 +500,14 @@ $color-redlighter :#ef476f;
         animation-duration: 5s;
         z-index: 5;
         img{
-            height:4vw;
+            height:6vw;
             width: auto;
             padding-left: 1vw;
             padding-right: 1vw;
             transition: all 0.3s ease-out;
         }
         img:hover{
-            transform: scale(1.5);
+            transform: scale(1.9);
             padding-top: 1vw;
         }
     }

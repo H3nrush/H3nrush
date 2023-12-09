@@ -320,7 +320,7 @@
   .container nav .logo-img {
     height: 5vw;
     transition: all 0.3s ease-out;
-    margin-right: 50px;
+    margin-right: 6vw;
   }
   .container nav .logo-img:hover {
     transform: scale(1.2);
@@ -410,7 +410,7 @@
     }
   }
   #info {
-    height: 70vw;
+    height: 90vw;
     width: 70vw;
     z-index: 4;
     background-color: rgba(0, 0, 0, 0.1);
@@ -435,6 +435,7 @@
   }
   .lang-logo {
     width: 100vw;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,14 +448,14 @@
     z-index: 5;
   }
   .lang-logo img {
-    height: 4vw;
+    height: 6vw;
     width: auto;
     padding-left: 1vw;
     padding-right: 1vw;
     transition: all 0.3s ease-out;
   }
   .lang-logo img:hover {
-    transform: scale(1.5);
+    transform: scale(1.9);
     padding-top: 1vw;
   }
   @keyframes lang-icon {
