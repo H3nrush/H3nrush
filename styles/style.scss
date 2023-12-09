@@ -339,7 +339,7 @@ $color-redlighter :#ef476f;
 @media only screen and (max-width: 930px) {
     body {
         background-color:$color-theme;
-        height: 1200px;
+        height: 1400px;
         width: 100%;
         margin: 0;
         font-family: my-font;
@@ -360,11 +360,12 @@ $color-redlighter :#ef476f;
            height: 5vw;
            transition: all 0.3s ease-out;
            margin-right: 6vw;
+           z-index: 6;
            
     
        }
        .logo-img:hover{
-        transform: scale(1.2);
+        transform: scale(1.9);
         overflow: hidden;
        }
           
@@ -449,7 +450,7 @@ $color-redlighter :#ef476f;
         font-size: 100px;
         position: absolute;
         right: calc(50% - 155px);
-        top: 60%;
+        top: 40%;
         z-index: 3;
         animation: typing 10s ;
       }
@@ -473,7 +474,7 @@ $color-redlighter :#ef476f;
         border-radius: 5%;
         position: absolute;
         right: calc(50% - 35vw);
-        top: 75%;
+        top: 55%;
         p{
             font-size: 3vw;
             color:white;

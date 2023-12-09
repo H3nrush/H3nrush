@@ -1,7 +1,9 @@
 function openMenu(){
-
-    if (document.getElementById("menu-container").style.display = "none"){
+    let navbar = document.getElementById("menu-container")
+    if (document.getElementById("menu-container").style.display === "none"){
         document.getElementById("menu-container").style.display = "block";
+    }else{
+        document.getElementById("menu-container").style.display = "none"
     }
 }
 function closeMenu(){
