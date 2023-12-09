@@ -206,6 +206,7 @@ body {
 .welcome-section {
   overflow: hidden;
   white-space: nowrap;
+  width: 0;
   font-family: my-font;
   color: #ef476f;
   font-size: 100px;
