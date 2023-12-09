@@ -122,13 +122,13 @@
   }
   @keyframes circle {
     0% {
-      transform: scale(0.8);
+      transform: scale(0.5);
     }
     50% {
-      transform: scale(1);
+      transform: scale(0.8);
     }
     100% {
-      transform: scale(0.8);
+      transform: scale(0.5);
     }
   }
   .circle2 {
@@ -192,7 +192,7 @@
     white-space: nowrap;
     width: 0;
     font-family: my-font;
-    color: #ef476f;
+    color: black;
     font-size: 100px;
     animation: typing 10s;
   }
@@ -233,7 +233,7 @@
     font-style: oblique;
   }
   #name a {
-    color: #ef476f;
+    color: black;
   }
   .div-photo-btn {
     height: 20vh;
@@ -302,7 +302,7 @@
 @media only screen and (max-width: 930px) {
   body {
     background-color: #073b4c;
-    height: 100%;
+    height: 1200px;
     width: 100%;
     margin: 0;
     font-family: my-font;
@@ -331,7 +331,7 @@
     width: 40px;
     margin-left: 30px;
     cursor: pointer;
-    background-color: black;
+    background-color: #073b4c;
     border-style: none;
     background-image: url("../files/icons/menu-img.png");
     background-size: cover;
@@ -372,8 +372,8 @@
     background-color: #06d6a0;
   }
   #img {
-    width: 340px;
-    height: 340px;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     background-image: url("../files/img/IMG_6240.png");
     background-color: white;
@@ -382,7 +382,7 @@
     background-repeat: no-repeat;
     position: absolute;
     margin-top: 50px;
-    right: calc(50% - 170px);
+    right: calc(50% - 20vw);
     z-index: 3;
   }
   .welcome-section {
@@ -390,7 +390,7 @@
     white-space: nowrap;
     width: 0;
     font-family: my-font;
-    color: #ffd166;
+    color: black;
     font-size: 100px;
     position: absolute;
     right: calc(50% - 155px);
@@ -525,7 +525,7 @@
     height: 100%;
     width: 100%;
     list-style: none;
-    line-height: 10vh;
+    line-height: 30px;
     display: flex;
     flex-direction: column;
   }
@@ -534,7 +534,8 @@
     text-decoration: none;
     background-color: #ef476f;
     font-size: 2vw;
-    padding: 1vw;
+    padding: 4px;
+    border: 1px black groove;
     border-radius: 10px;
     transition: all 0.4s ease-out;
   }
