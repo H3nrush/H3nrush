@@ -417,7 +417,7 @@
     border-radius: 5%;
     position: absolute;
     right: calc(50% - 35vw);
-    top: 80%;
+    top: 75%;
   }
   #info p {
     font-size: 3vw;
