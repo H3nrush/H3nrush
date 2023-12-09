@@ -413,7 +413,7 @@
     height: 70vw;
     width: 70vw;
     z-index: 4;
-    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5%;
     position: absolute;
     right: calc(50% - 35vw);
@@ -431,7 +431,7 @@
     font-style: oblique;
   }
   #name a {
-    color: black;
+    color: #ffd166;
   }
   .lang-logo {
     width: 100vw;

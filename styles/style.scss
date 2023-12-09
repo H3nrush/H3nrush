@@ -464,14 +464,14 @@ $color-redlighter :#ef476f;
         height: 70vw;
         width: 70vw;
         z-index: 4;
-        backdrop-filter:blur(50px);
+        background-color: rgba(0, 0, 0 , 0.1);
         border-radius: 5%;
         position: absolute;
         right: calc(50% - 35vw);
         top: 80%;
         p{
             font-size: 3vw;
-            color: white;
+            color:white;
             margin-left: 2vw;
             .greet{
                 color: $color-redlight;
@@ -482,7 +482,7 @@ $color-redlighter :#ef476f;
       #name{
         
         font-style: oblique;
-        a{color: black;}
+        a{color:$color-redlight;}
       }
       
     .lang-logo{
