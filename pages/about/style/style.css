@@ -23,7 +23,7 @@ body {
 .about .policies {
   height: 95%;
   width: 95%;
-  font-size: 5vw;
+  font-size: 35px;
   color: aquamarine;
   overflow-y: scroll;
 }
