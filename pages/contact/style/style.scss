@@ -46,34 +46,51 @@ body{
 .contact{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0 , 0.7);
     height: 90vh;
     width: 90vw;
     border-radius: 10%;
-    overflow: scroll;
+    overflow: hidden;
 }
 .div-social{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin-top: 2vw;
-    flex-wrap: wrap;
+    
+    
+}
+.contact-email{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10vw;
+    color: white;
+}
+@media only screen and (min-width: 930px){
     a{
         padding: 2vw;
         .social-icon{
-            height: 20vw;
+            height: 10vw;
             transition: all 0.3s ease-out;
         }
         .social-icon:hover{
             transform: scale(1.5);
         }
     }
-    
-    
 }
-.contact-email{
-    text-align: center;
-    font-size: 5vw;
-    color: white;
+@media only screen and (max-width: 930px){
+    a{
+        padding: 2vw;
+        .social-icon{
+            height: 10vw;
+            
+            transition: all 0.3s ease-out;
+        }
+        .social-icon:hover{
+            transform: scale(1.5);
+        }
+    }
 }
