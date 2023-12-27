@@ -229,14 +229,15 @@ body::-webkit-scrollbar {
     height: 10vh;
     width: 100vw;
     color: black;
+    font-size: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
   }
   .contact-info div:first-child div a img {
-    height: 50px;
-    margin-right: 20px;
+    height: 25px;
+    margin-right: 25px;
   }
   #app {
     background-image: url("../../../files/img/pexels-timson-foox-2182863.jpg");

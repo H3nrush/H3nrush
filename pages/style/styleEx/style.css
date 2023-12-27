@@ -72,13 +72,14 @@ body {
   width: 100vw;
   color: white;
   display: flex;
+  font-size: 10px;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
 }
 
 .contact-info div:first-child div a img {
-  height: 50px;
+  height: 25px;
   margin-right: 20px;
 }
 

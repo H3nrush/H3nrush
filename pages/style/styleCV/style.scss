@@ -266,6 +266,7 @@ body::-webkit-scrollbar{
       height: 10vh;
       width: 100vw;
       color: black;
+      font-size: 10px;
       display: flex;
       align-items: center;
       justify-content: space-around;
@@ -274,8 +275,8 @@ body::-webkit-scrollbar{
 
         a{
           img{
-            height: 50px;
-            margin-right: 20px;
+            height: 25px;
+            margin-right: 25px;
           }
         }
       }
