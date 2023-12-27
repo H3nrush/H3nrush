@@ -106,7 +106,7 @@ body::-webkit-scrollbar {
   #app .header-img .img {
     height: 400px;
     width: 400px;
-    background-image: url("../../../files/img/Untitled-13.jpg");
+    background-image: url("../../../files/img/IMG_6377.jpg");
     background-size: 100%;
     background-position: cover;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body::-webkit-scrollbar {
   #app .header-img .img {
     height: 300px;
     width: 300px;
-    background-image: url("../../../files/img/Untitled-13.jpg");
+    background-image: url("../../../files/img/IMG_6377.jpg");
     background-size: 100%;
     background-position: cover;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ body::-webkit-scrollbar {
     justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    font-size: 20px;
+    font-size: 10px;
   }
   .text-infos strong {
     background-color: rgba(0, 0, 0, 0.2);
