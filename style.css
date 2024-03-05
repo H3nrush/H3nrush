@@ -196,9 +196,11 @@ body::-webkit-scrollbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap:wrap;
   }
   .icons-lang img {
     height: 100px;
+    margin:15px;
   }
 }
 
