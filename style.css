@@ -191,7 +191,7 @@ body::-webkit-scrollbar {
   .icons-lang {
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 150px;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
